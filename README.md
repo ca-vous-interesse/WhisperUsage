@@ -2,6 +2,22 @@
 
 ## Installation de Whisper
 ### Windows
+Tapez Win+X et sélectionnez le PowerShell (admin)
+
+    Set-ExecutionPolicy AllSigned
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+Restart PowerShell : tapez Win+X et sélectionnez le PowerShell (admin)
+
+    choco install python --version 3.10 --side-by-side
+    choco install ffmpeg
+    C:\Python310\python -m pip install python-ffmpeg
+    choco install git
+    C:\Python310\python -m pip install git+https://github.com/openai/whisper.git
+    C:\Python310\python -m pip cache purge
+    choco install yt-dlp
+    whisper --model base --language fr audio.mp3
+    whisper --model base --language fr --task translate audio.mp3
 
 ### Mac Os
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
