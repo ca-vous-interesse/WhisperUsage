@@ -45,3 +45,14 @@ Il sait:
 - Travailler sur un fichier audio sur votre disque
 - En extraire un texte
 - En extraire un fichier de sous-titres .srt
+
+Github original de Whisper:
+
+    https://github.com/openai/whisper
+    
+Version modifiée pour avoir un horodatage plus précis des mots:
+
+    https://github.com/jianfch/stable-ts
+    https://github.com/m-bain/whisperX
+    https://github.com/linto-ai/whisper-timestamped
+    
