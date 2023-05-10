@@ -55,6 +55,7 @@ Version modifiée pour avoir un horodatage plus précis des mots:
     https://github.com/jianfch/stable-ts
     https://github.com/m-bain/whisperX
     https://github.com/linto-ai/whisper-timestamped
+    https://github.com/ggerganov/whisper.cpp
     
 Application utilisant Whisper:
 
