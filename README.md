@@ -56,3 +56,8 @@ Version modifiée pour avoir un horodatage plus précis des mots:
     https://github.com/m-bain/whisperX
     https://github.com/linto-ai/whisper-timestamped
     
+Application utilisant Whisper:
+
+    https://goodsnooze.gumroad.com/l/macwhisper
+    https://apps.apple.com/app/id1672085276
+    https://apps.apple.com/us/app/whisper-transcription/id1668083311?mt=12
